@@ -1,0 +1,58 @@
+[0.024s] Invoking command in '/Users/frank/ros2_ws/build/mycobot_description': SHLVL=2 _=/Users/frank/miniconda3/envs/ros_env/bin/env /Users/frank/miniconda3/envs/ros_env/bin/cmake --build /Users/frank/ros2_ws/build/mycobot_description -- -j10 -l10
+[0.107s] Invoked command in '/Users/frank/ros2_ws/build/mycobot_description' returned '0': SHLVL=2 _=/Users/frank/miniconda3/envs/ros_env/bin/env /Users/frank/miniconda3/envs/ros_env/bin/cmake --build /Users/frank/ros2_ws/build/mycobot_description -- -j10 -l10
+[0.265s] Invoking command in '/Users/frank/ros2_ws/build/mycobot_description': SHLVL=2 _=/Users/frank/miniconda3/envs/ros_env/bin/env /Users/frank/miniconda3/envs/ros_env/bin/cmake --install /Users/frank/ros2_ws/build/mycobot_description
+[0.281s] -- Install configuration: ""
+[0.281s] -- Execute custom install script
+[0.282s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/build/.built_by
+[0.282s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/build/COLCON_IGNORE
+[0.282s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/.colcon_install_layout
+[0.282s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/COLCON_IGNORE
+[0.282s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/_local_setup_util_ps1.py
+[0.282s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/_local_setup_util_sh.py
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/local_setup.bash
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/local_setup.ps1
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/local_setup.sh
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/local_setup.zsh
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/setup.bash
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/setup.ps1
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/setup.sh
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/install/setup.zsh
+[0.283s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/COLCON_IGNORE
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/build_2026-02-14_22-37-37/events.log
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/build_2026-02-14_22-37-37/logger_all.log
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/build_2026-02-14_22-37-59/events.log
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/build_2026-02-14_22-37-59/logger_all.log
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/build_2026-02-14_22-38-14/events.log
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/build_2026-02-14_22-38-14/logger_all.log
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/latest
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/log/latest_build
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630.urdf
+[0.284s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630.urdf.xacro
+[0.285s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/base.dae
+[0.285s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link1.dae
+[0.285s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link2.dae
+[0.285s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link3.dae
+[0.285s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link4.dae
+[0.285s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link5.dae
+[0.285s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link6.dae
+[0.286s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/single_suction_cup.dae
+[0.286s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/launch/display.launch.py
+[0.286s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/launch/foxglove.launch.py
+[0.286s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/config/controllers.yaml
+[0.286s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/rviz/display.rviz
+[0.286s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[0.286s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[0.287s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[0.287s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[0.287s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+[0.287s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[0.287s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+[0.287s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+[0.287s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[0.287s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[0.288s] -- Symlinking: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+[0.304s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[0.304s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[0.304s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[0.304s] -- Up-to-date symlink: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml
+[0.305s] Invoked command in '/Users/frank/ros2_ws/build/mycobot_description' returned '0': SHLVL=2 _=/Users/frank/miniconda3/envs/ros_env/bin/env /Users/frank/miniconda3/envs/ros_env/bin/cmake --install /Users/frank/ros2_ws/build/mycobot_description

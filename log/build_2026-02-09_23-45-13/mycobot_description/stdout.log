@@ -1,0 +1,45 @@
+-- Found ament_cmake: 1.3.11 (/Users/frank/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+-- Found Python3: /Users/frank/miniconda3/envs/ros_env/bin/python3 (found version "3.11.12") found components: Interpreter
+-- Found ament_lint_auto: 0.12.11 (/Users/frank/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/frank/ros2_ws/build/mycobot_description
+-- Install configuration: ""
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630.urdf.xacro
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630.urdf
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/base.dae
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link4.dae
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/single_suction_cup.dae
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link5.dae
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link6.dae
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link2.dae
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link3.dae
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link1.dae
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/launch
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/launch/display.launch.py
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/config
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/config/controllers.yaml
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/rviz
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/rviz/display.rviz
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+-- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml

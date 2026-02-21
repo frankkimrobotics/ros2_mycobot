@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (mycobot_description) JobQueued: {'identifier': 'mycobot_description', 'dependencies': OrderedDict()}
+[0.000322] (mycobot_description) JobStarted: {'identifier': 'mycobot_description'}
+[0.026185] (mycobot_description) JobProgress: {'identifier': 'mycobot_description', 'progress': 'cmake'}
+[0.026604] (mycobot_description) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/frank/ros2_ws/src/mycobot_description', '-DCMAKE_INSTALL_PREFIX=/Users/frank/ros2_ws/install/mycobot_description'], 'cwd': '/Users/frank/ros2_ws/build/mycobot_description', 'env': OrderedDict([('NoDefaultCurrentDirectoryInExePath', '1'), ('rvm_use_flag', ''), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('rvm_bin_path', '/Users/frank/.rvm/bin'), ('TERM_PROGRAM', 'Apple_Terminal'), ('rvm_quiet_flag', ''), ('GEM_HOME', '/Users/frank/.rvm/gems/ruby-3.0.0'), ('rvm_gemstone_url', ''), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('rvm_docs_type', ''), ('IRBRC', '/Users/frank/.rvm/rubies/ruby-3.0.0/.irbrc'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/ts/jgp1v6rs1jxf8f_lhxs874c40000gn/T/'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '466'), ('rvm_hook', ''), ('MY_RUBY_HOME', '/Users/frank/.rvm/rubies/ruby-3.0.0'), ('TERM_SESSION_ID', '57E94B0D-B950-41B9-A919-164B67454952'), ('GIT_EDITOR', 'true'), ('USER', 'frank'), ('rvm_gemstone_package_file', ''), ('CONDA_EXE', '/Users/frank/miniconda3/bin/conda'), ('rvm_path', '/Users/frank/.rvm'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.pyFJKA9MLF/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('rvm_proxy', ''), ('rvm_ruby_file', ''), ('_CE_CONDA', ''), ('rvm_silent_flag', ''), ('rvm_prefix', '/Users/frank'), ('rvm_ruby_make', ''), ('PATH', '/Users/frank/.rvm/gems/ruby-3.0.0/bin:/Users/frank/.rvm/gems/ruby-3.0.0@global/bin:/Users/frank/.rvm/rubies/ruby-3.0.0/bin:/Users/frank/.antigravity/antigravity/bin:/Applications/MATLAB_R2024a.app/bin:/Users/frank/.local/bin:/opt/homebrew/opt/llvm/bin:/opt/homebrew/opt/libomp/bin:/opt/homebrew/bin:/Users/frank/miniconda3/condabin:/opt/homebrew/opt/pyqt@5/5.15.4_1/bin:/opt/homebrew/opt/qt@5/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Blender.app/Contents/MacOS:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/frank/.rvm/bin'), ('LaunchInstanceID', '7AC022B3-0C94-43D7-B1F3-B59848CA7CEE'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('PWD', '/Users/frank/ros2_ws/build/mycobot_description'), ('COLCON', '1'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('LANG', 'en_US.UTF-8'), ('rvm_sdk', ''), ('XPC_FLAGS', '0x0'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('rvm_version', '1.29.12 (latest)'), ('rvm_script_name', ''), ('rvm_pretty_print_flag', ''), ('SHLVL', '3'), ('HOME', '/Users/frank'), ('rvm_ruby_mode', ''), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('CONDA_PYTHON_EXE', '/Users/frank/miniconda3/bin/python'), ('LOGNAME', 'frank'), ('rvm_alias_expanded', ''), ('GEM_PATH', '/Users/frank/.rvm/gems/ruby-3.0.0:/Users/frank/.rvm/gems/ruby-3.0.0@global'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('rvm_nightly_flag', ''), ('rvm_ruby_make_install', ''), ('INFOPATH', '/opt/homebrew/share/info:/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('rvm_niceness', ''), ('DISPLAY', '/private/tmp/com.apple.launchd.DaubjZDFhr/org.xquartz:0'), ('rvm_ruby_bits', ''), ('OSLogRateLimit', '64'), ('rvm_bin_flag', ''), ('CLAUDECODE', '1'), ('rvm_only_path_flag', ''), ('RUBY_VERSION', 'ruby-3.0.0'), ('SECURITYSESSIONID', '186b6'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.064282] (mycobot_description) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.064507] (mycobot_description) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.064567] (mycobot_description) StderrLine: {'line': b'  CMake.\n'}
+[0.064619] (mycobot_description) StderrLine: {'line': b'\n'}
+[0.064663] (mycobot_description) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.064707] (mycobot_description) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.064754] (mycobot_description) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.064807] (mycobot_description) StderrLine: {'line': b'\n'}
+[0.064851] (mycobot_description) StderrLine: {'line': b'\n'}
+[0.104120] (-) TimerEvent: {}
+[0.207592] (-) TimerEvent: {}
+[0.308192] (-) TimerEvent: {}
+[0.409393] (-) TimerEvent: {}
+[0.485455] (mycobot_description) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 17.0.0.17000013\n'}
+[0.513534] (-) TimerEvent: {}
+[0.617167] (-) TimerEvent: {}
+[0.720545] (-) TimerEvent: {}
+[0.821346] (-) TimerEvent: {}
+[0.921608] (-) TimerEvent: {}
+[1.026713] (-) TimerEvent: {}
+[1.131329] (-) TimerEvent: {}
+[1.236436] (-) TimerEvent: {}
+[1.337747] (-) TimerEvent: {}
+[1.440415] (-) TimerEvent: {}
+[1.545479] (-) TimerEvent: {}
+[1.650632] (-) TimerEvent: {}
+[1.711444] (mycobot_description) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 17.0.0.17000013\n'}
+[1.750551] (mycobot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.751901] (-) TimerEvent: {}
+[1.856983] (-) TimerEvent: {}
+[1.958017] (-) TimerEvent: {}
+[2.063218] (-) TimerEvent: {}
+[2.169408] (-) TimerEvent: {}
+[2.273765] (-) TimerEvent: {}
+[2.378888] (-) TimerEvent: {}
+[2.390504] (mycobot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.404781] (mycobot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.405273] (mycobot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.405837] (mycobot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.412705] (mycobot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.483932] (-) TimerEvent: {}
+[2.570397] (mycobot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.585264] (mycobot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.585377] (-) TimerEvent: {}
+[2.585503] (mycobot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.585976] (mycobot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.690445] (-) TimerEvent: {}
+[2.795176] (-) TimerEvent: {}
+[2.900285] (-) TimerEvent: {}
+[3.004881] (-) TimerEvent: {}
+[3.121959] (-) TimerEvent: {}
+[3.224869] (-) TimerEvent: {}
+[3.276257] (mycobot_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:8 (find_package):\n'}
+[3.280974] (mycobot_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.281104] (mycobot_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.281165] (mycobot_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.281209] (mycobot_description) StderrLine: {'line': b'\n'}
+[3.281250] (mycobot_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.281289] (mycobot_description) StderrLine: {'line': b'  any of the following names:\n'}
+[3.281331] (mycobot_description) StderrLine: {'line': b'\n'}
+[3.281372] (mycobot_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.281422] (mycobot_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.281473] (mycobot_description) StderrLine: {'line': b'\n'}
+[3.281513] (mycobot_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.281569] (mycobot_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.281622] (mycobot_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.281662] (mycobot_description) StderrLine: {'line': b'  has been installed.\n'}
+[3.281701] (mycobot_description) StderrLine: {'line': b'\n'}
+[3.281743] (mycobot_description) StderrLine: {'line': b'\n'}
+[3.281776] (mycobot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.283603] (mycobot_description) CommandEnded: {'returncode': 1}
+[3.324585] (mycobot_description) JobEnded: {'identifier': 'mycobot_description', 'rc': 1}
+[3.325112] (-) TimerEvent: {}
+[3.325132] (-) EventReactorShutdown: {}

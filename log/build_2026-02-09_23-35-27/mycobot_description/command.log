@@ -1,0 +1,2 @@
+Invoking command in '/Users/frank/ros2_ws/build/mycobot_description': SHLVL=3 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/frank/ros2_ws/src/mycobot_description -DCMAKE_INSTALL_PREFIX=/Users/frank/ros2_ws/install/mycobot_description
+Invoked command in '/Users/frank/ros2_ws/build/mycobot_description' returned '1': SHLVL=3 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/frank/ros2_ws/src/mycobot_description -DCMAKE_INSTALL_PREFIX=/Users/frank/ros2_ws/install/mycobot_description

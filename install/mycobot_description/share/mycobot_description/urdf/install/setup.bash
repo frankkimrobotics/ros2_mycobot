@@ -1,0 +1,1 @@
+/Users/frank/ros2_ws/src/mycobot_description/urdf/install/setup.bash

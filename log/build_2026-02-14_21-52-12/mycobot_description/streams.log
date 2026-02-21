@@ -1,0 +1,39 @@
+[0.032s] Invoking command in '/Users/frank/ros2_ws/build/mycobot_description': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=3 _=/Users/frank/miniconda3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/frank/miniconda3/envs/ros_env/bin/cmake --build /Users/frank/ros2_ws/build/mycobot_description -- -j10 -l10
+[1.353s] Invoked command in '/Users/frank/ros2_ws/build/mycobot_description' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=3 _=/Users/frank/miniconda3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/frank/miniconda3/envs/ros_env/bin/cmake --build /Users/frank/ros2_ws/build/mycobot_description -- -j10 -l10
+[1.519s] Invoking command in '/Users/frank/ros2_ws/build/mycobot_description': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=3 _=/Users/frank/miniconda3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/frank/miniconda3/envs/ros_env/bin/cmake --install /Users/frank/ros2_ws/build/mycobot_description
+[1.539s] -- Install configuration: ""
+[1.539s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf
+[1.539s] -- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630.urdf.xacro
+[1.539s] -- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630.urdf
+[1.540s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes
+[1.540s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/base.dae
+[1.540s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link4.dae
+[1.540s] -- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/single_suction_cup.dae
+[1.540s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link5.dae
+[1.540s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link6.dae
+[1.540s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link2.dae
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link3.dae
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/link1.dae
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/launch
+[1.541s] -- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/launch/foxglove.launch.py
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/launch/display.launch.py
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/config
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/config/controllers.yaml
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/rviz
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/rviz/display.rviz
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[1.541s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[1.542s] -- Installing: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[1.542s] -- Up-to-date: /Users/frank/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml
+[1.544s] Invoked command in '/Users/frank/ros2_ws/build/mycobot_description' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=3 _=/Users/frank/miniconda3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/frank/miniconda3/envs/ros_env/bin/cmake --install /Users/frank/ros2_ws/build/mycobot_description

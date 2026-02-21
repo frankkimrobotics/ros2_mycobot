@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/frank/ros2_ws/build/mycobot_description/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
