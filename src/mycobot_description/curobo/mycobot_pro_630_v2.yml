@@ -13,6 +13,7 @@ robot_cfg:
     - link6
     - camera_mount
     - suction_cup
+    - attached_object
     collision_spheres:
       base:
       - center:
@@ -345,20 +346,29 @@ robot_cfg:
       - link6
       - suction_cup
       - camera_mount
+      - attached_object
       link6:
       - link4
       - link5
       - suction_cup
       - camera_mount
+      - attached_object
       camera_mount:
       - link4
       - link5
       - link6
       - suction_cup
+      - attached_object
       suction_cup:
       - link5
       - link6
       - camera_mount
+      - attached_object
+      attached_object:
+      - link5
+      - link6
+      - camera_mount
+      - suction_cup
     self_collision_buffer:
       base: 0.0
       link1: 0.0
@@ -369,6 +379,23 @@ robot_cfg:
       link6: 0.0
       camera_mount: 0.0
       suction_cup: 0.0
+      attached_object: 0.0
+    extra_collision_spheres:
+      attached_object: 16
+    extra_links:
+      attached_object:
+        fixed_transform:
+        - 0
+        - 0
+        - 0
+        - 1
+        - 0
+        - 0
+        - 0
+        joint_name: attach_joint
+        joint_type: FIXED
+        link_name: attached_object
+        parent_link_name: tcp
     mesh_link_names: null
     use_global_cumul: true
     cspace:
