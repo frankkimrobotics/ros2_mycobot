@@ -1,0 +1,161 @@
+robot_cfg:
+  kinematics:
+    urdf_path: /home/lisc-frank/Desktop/2026/frankkimrobotics/ros2_mycobot/src/mycobot_description/urdf/mycobot_pro_630.urdf
+    asset_root_path: /home/lisc-frank/Desktop/2026/frankkimrobotics/ros2_mycobot/src/mycobot_description/meshes
+    base_link: base_link
+    ee_link: tcp
+    link_names: null
+    collision_link_names: [base, link1, link2, link3, link4, link5, link6, camera_mount, suction_cup]
+    collision_spheres:
+      base:
+      - center: [-0.0539, -0.0258, 0.0351]
+        radius: 0.0799
+      - center: [0.0, 0.0032, 0.1321]
+        radius: 0.0664
+      - center: [0.0295, -0.0258, 0.0184]
+        radius: 0.0814
+      - center: [0.0258, 0.0387, 0.0386]
+        radius: 0.0746
+      - center: [-0.0515, 0.0387, 0.0386]
+        radius: 0.0757
+      - center: [0.011, -0.0258, 0.0736]
+        radius: 0.0637
+      link1:
+      - center: [0.0008, -0.0217, -0.0053]
+        radius: 0.0441
+      - center: [-0.0155, 0.0088, 0.0231]
+        radius: 0.0503
+      - center: [-0.0107, 0.0253, -0.0377]
+        radius: 0.0508
+      - center: [0.0228, -0.0015, -0.0424]
+        radius: 0.0465
+      - center: [0.0244, 0.0122, 0.0169]
+        radius: 0.0514
+      - center: [-0.0177, -0.0152, -0.0456]
+        radius: 0.0441
+      link2:
+      - center: [-0.0053, 0.0, -0.0921]
+        radius: 0.0519
+      - center: [0.2809, 0.0, -0.0697]
+        radius: 0.0528
+      - center: [0.0264, 0.0205, -0.068]
+        radius: 0.0494
+      - center: [0.0649, -0.0061, -0.0771]
+        radius: 0.0523
+      - center: [-0.0117, -0.0117, -0.0534]
+        radius: 0.051
+      - center: [0.1715, 0.0, -0.0785]
+        radius: 0.0489
+      - center: [0.2259, 0.0, -0.0743]
+        radius: 0.053
+      - center: [0.1187, 0.0, -0.0785]
+        radius: 0.0504
+      link3:
+      - center: [-0.0, 0.0, 0.0199]
+        radius: 0.0553
+      - center: [0.2279, -0.0147, 0.0071]
+        radius: 0.0517
+      - center: [-0.0, 0.0, -0.0315]
+        radius: 0.0491
+      - center: [0.2702, -0.0128, 0.0071]
+        radius: 0.0563
+      - center: [0.2573, 0.0258, 0.0071]
+        radius: 0.0564
+      - center: [0.0772, 0.0, 0.0199]
+        radius: 0.0554
+      - center: [0.1918, 0.0024, 0.0211]
+        radius: 0.0513
+      - center: [0.1415, 0.0, 0.0199]
+        radius: 0.049
+      link4:
+      - center: [-0.0193, -0.0252, 0.0232]
+        radius: 0.0438
+      - center: [0.0211, -0.0306, 0.0002]
+        radius: 0.0448
+      - center: [0.0202, 0.0054, 0.0286]
+        radius: 0.0428
+      - center: [-0.0098, 0.0183, 0.0129]
+        radius: 0.0453
+      - center: [-0.0138, -0.0258, -0.0149]
+        radius: 0.0453
+      link5:
+      - center: [0.0003, -0.0137, -0.017]
+        radius: 0.0479
+      - center: [-0.0271, -0.0049, 0.0159]
+        radius: 0.0466
+      - center: [0.0257, 0.0089, 0.0178]
+        radius: 0.0438
+      - center: [-0.0247, 0.0206, -0.0118]
+        radius: 0.0494
+      - center: [0.0385, 0.0031, -0.0135]
+        radius: 0.0502
+      link6:
+      - center: [0.0067, -0.0144, 0.0107]
+        radius: 0.0257
+      - center: [0.0067, -0.0114, -0.0153]
+        radius: 0.0255
+      - center: [0.0067, 0.0158, -0.0121]
+        radius: 0.0255
+      - center: [0.0067, 0.0111, 0.0144]
+        radius: 0.0258
+      camera_mount:
+      - center: [0.0, 0.0, -0.003]
+        radius: 0.032
+      - center: [0.0, 0.04, -0.003]
+        radius: 0.02
+      - center: [0.0, 0.058, 0.0]
+        radius: 0.02
+      - center: [0.0, 0.075, 0.01]
+        radius: 0.022
+      - center: [0.0, 0.087, 0.017]
+        radius: 0.02
+      suction_cup:
+      - center: [-0.0, -0.0, -0.0348]
+        radius: 0.0122
+      - center: [-0.0, 0.0, -0.0525]
+        radius: 0.0116
+      - center: [-0.0, -0.0, -0.0172]
+        radius: 0.0115
+      - center: [-0.0, 0.0, -0.0657]
+        radius: 0.0081
+      - center: [-0.0, 0.0, -0.0922]
+        radius: 0.005
+      - center: [-0.0, -0.009, -0.0613]
+        radius: 0.0046
+      - center: [-0.0, 0.009, -0.0083]
+        radius: 0.0046
+      - center: [-0.0, 0.009, -0.0613]
+        radius: 0.0046
+      - center: [-0.0, 0.009, -0.026]
+        radius: 0.0046
+      - center: [0.009, -0.0, -0.026]
+        radius: 0.0046
+      - center: [0.009, -0.0, -0.0083]
+        radius: 0.0046
+      - center: [0.009, 0.0, -0.0613]
+        radius: 0.0046
+    collision_sphere_buffer: 0.0
+    self_collision_ignore:
+      base: [link1, link2]
+      link1: [base, link2]
+      link2: [base, link1, link3]
+      link3: [link2, link4, link5]
+      link4: [link3, link5, link6, camera_mount]
+      link5: [link3, link4, link6, suction_cup, camera_mount]
+      link6: [link4, link5, suction_cup, camera_mount]
+      camera_mount: [link4, link5, link6, suction_cup]
+      suction_cup: [link5, link6, camera_mount]
+    self_collision_buffer: {base: 0.0, link1: 0.0, link2: 0.0, link3: 0.0, link4: 0.0,
+      link5: 0.0, link6: 0.0, camera_mount: 0.0, suction_cup: 0.0}
+    mesh_link_names: null
+    use_global_cumul: true
+    cspace:
+      joint_names: [joint1, joint2, joint3, joint4, joint5, joint6]
+      # retract = base pose (LinuxCNC [0,-110,80,-80,-90,0]); biases IK/trajopt toward the
+      # sensible base elbow config instead of odd joint2/joint3 (collision-prone).
+      retract_config: [0.0, -0.349066, 1.396263, 0.174533, -1.570796, 0.0]
+      # weight joints 2 & 3 (shoulder/elbow) more so the planner keeps them near retract.
+      null_space_weight: [1.0, 3.0, 3.0, 1.0, 1.0, 1.0]
+      cspace_distance_weight: [1.0, 2.0, 2.0, 1.0, 1.0, 1.0]
+      max_jerk: 2000.0
+      max_acceleration: 24.0
