@@ -258,15 +258,17 @@
       <geometry>
         <mesh filename="package://mycobot_description/meshes/single_suction_cup.dae" />
       </geometry>
-      <!-- DAE Z-up, unit=0.001 (mm); bounding box centroid at origin -->
-      <origin xyz="0 0 -0.0525" rpy="1.5708 0 0"/>
+      <!-- DAE Z-up, unit=0.001 (mm); bounding box centroid at origin.
+           Shifted -6mm along the tool axis (suction_cup -Z) so the cup body sits BELOW the
+           camera wrist-mount ring instead of overlapping it (cup screws into the mount). -->
+      <origin xyz="0 0 -0.0585" rpy="1.5708 0 0"/>
       <material name="grey"/>
     </visual>
     <collision>
       <geometry>
         <cylinder radius="0.03" length="0.06"/>
       </geometry>
-      <origin xyz="0. 0 0" rpy="0 0 0"/>
+      <origin xyz="0. 0 -0.006" rpy="0 0 0"/>
     </collision>
     <inertial>
       <mass value="0.1537"/>
