@@ -114,6 +114,12 @@ class Planner:
             self._base_cuboids["ground"] = {
                 "dims": [2.0, 2.0, 0.04],
                 "pose": [0.0, 0.0, ground_z - 0.02, 1, 0, 0, 0]}
+        # SAFETY keep-out: the arm must stay on the +x side of the plane x = -0.3.
+        # A big wall filling x < -0.3 (its +x face at -0.3) so no plan penetrates it.
+        # In _base_cuboids -> survives clear_world and is re-added on every set_world.
+        self._base_cuboids["keepout_xneg"] = {
+            "dims": [1.0, 2.4, 2.4],
+            "pose": [-0.8, 0.0, 0.2, 1, 0, 0, 0]}
 
         print(f"[planner-v2] warming up MotionPlanner...", flush=True)
         self.mp.warmup()
