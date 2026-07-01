@@ -298,13 +298,15 @@
     <child link="tcp"/>
     <!-- TCP = real suction-cup tip along suction_cup +Z (= link6 -X), rpy 3.1416
          (RotX 180) so tcp +Z = approach axis points DOWN.
-         Length 0.145 m. Floor touch-test (2026-06-27), base on the table so base_link
-         z=0 == table surface: with tcp=0.13 the real cup tip only touched the table
-         when the MODEL put the tip at z~0.0158 -> the real tip is ~0.145 m below the
-         flange (0.13 + 0.0158). This also matches the length the hand-eye T_tcp_cam
-         was calibrated at, so NO camera z-shift is needed now (config.CAM_TCP_Z_SHIFT=0).
-         The earlier 0.13 setting made every grasp dive ~1.5 cm too deep. -->
-    <origin xyz="0 0 -0.145" rpy="3.1416 0 0"/>
+         Length 0.135 m. RE-CALIBRATED 2026-06-30 by a J2-shoulder-torque floor touch-test
+         (calib_z.py, base on the table so base_link z=0 == table): with the prior tcp=0.145
+         the cup only first-touched the table when the MODEL put the tip at z ~ -0.010 m,
+         i.e. the suction cup had shortened ~10 mm (compression set from repeated presses)
+         since the 2026-06-27 calibration below. That 10 mm made every touch/grasp land high
+         and miss objects. New tip length = 0.145 - 0.010 = 0.135 m.
+         PRIOR (2026-06-27): tcp=0.13 -> cup touched at MODEL z~0.0158 -> real tip 0.145 m
+         below flange (0.13 + 0.0158); matched hand-eye T_tcp_cam (config.CAM_TCP_Z_SHIFT=0). -->
+    <origin xyz="0 0 -0.135" rpy="3.1416 0 0"/>
   </joint>
 
   <!-- ==================== End Effector Frame (EEF) ==================== -->
