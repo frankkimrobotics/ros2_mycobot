@@ -420,6 +420,13 @@ robot_cfg:
       - 1.0
       - 1.0
       - 1.0
+      position_limit_clip:
+      - 0.0
+      - 1.919862
+      - 0.087266
+      - 0.0
+      - 0.0
+      - 0.0
       max_jerk: 2000.0
       max_acceleration: 24.0
       default_joint_position:

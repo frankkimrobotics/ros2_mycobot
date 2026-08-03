@@ -167,5 +167,11 @@ robot_cfg:
       # weight joints 2 & 3 (shoulder/elbow) more so the planner keeps them near retract.
       null_space_weight: [1.0, 3.0, 3.0, 1.0, 1.0, 1.0]
       cspace_distance_weight: [1.0, 2.0, 2.0, 1.0, 1.0, 1.0]
+      # elbow-safety hard constraint: shrink joint2/joint3 limits so the link2/link3
+      # chain can never bend below the table plane (lower+=clip, upper-=clip).
+      # FK sweep 2026-08-02: elbow z >= +0.05 m for |joint2|<=70deg & |joint3|<=145deg;
+      # dips to -0.3 m (through the table) outside. joint2 +-180 -> +-70 deg,
+      # joint3 -149.5..150 -> ~+-145 deg.
+      position_limit_clip: [0.0, 1.919862, 0.087266, 0.0, 0.0, 0.0]
       max_jerk: 2000.0
       max_acceleration: 24.0
