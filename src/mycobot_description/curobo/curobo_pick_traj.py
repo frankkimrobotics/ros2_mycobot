@@ -75,7 +75,9 @@ def plan_phases(P):
     for name, goal in [("approach", hover), ("descend", grasp), ("press", press),
                        ("lift", hover), ("carry", bin_h), ("drop", drop)]:
         r = None
-        for yaw in (0.0, 90.0, -90.0, 180.0, 45.0, -45.0):
+        # primary yaw +90: the wrist D405 then sits over the table interior
+        # viewing the scene (camera rides outside the wrist, 10 deg tilt)
+        for yaw in (90.0, 0.0, -90.0, 180.0, 45.0, -45.0):
             r = P.plan_pose(q, _yawed(goal, yaw), max_attempts=5)
             if r["success"]:
                 if yaw:
