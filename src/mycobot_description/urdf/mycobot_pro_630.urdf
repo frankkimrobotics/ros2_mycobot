@@ -67,7 +67,7 @@
 
   <joint name="joint1" type="revolute">
     <axis xyz="0 0 1"/>
-    <limit effort="1000.0" lower="-3.14159" upper="3.14159" velocity="1.5"/>
+    <limit effort="186.0" lower="-3.14159" upper="3.14159" velocity="0.6283"/>
     <parent link="base"/>
     <child link="link1"/>
     <origin xyz="0 0 0.22934" rpy="0 0 0"/>
@@ -97,7 +97,7 @@
 
   <joint name="joint2" type="revolute">
     <axis xyz="0 0 -1"/>
-    <limit effort="1000.0" lower="-3.14159" upper="3.14159" velocity="1.5"/>
+    <limit effort="186.0" lower="-3.14159" upper="3.14159" velocity="0.6283"/>
     <parent link="link1"/>
     <child link="link2"/>
     <origin xyz="0 0 0" rpy="1.5707 -1.5708 0"/>
@@ -127,7 +127,7 @@
 
   <joint name="joint3" type="revolute">
     <axis xyz="0 0 -1"/>
-    <limit effort="1000.0" lower="-2.61" upper="2.618" velocity="1.5"/>
+    <limit effort="186.0" lower="-2.61" upper="2.618" velocity="0.6283"/>
     <parent link="link2"/>
     <child link="link3"/>
     <origin xyz="0.27 0 0" rpy="0 0 0"/>
@@ -157,7 +157,7 @@
 
   <joint name="joint4" type="revolute">
     <axis xyz="0 0 -1"/>
-    <limit effort="1000.0" lower="-2.9670" upper="2.9670" velocity="1.5"/>
+    <limit effort="50.0" lower="-2.9670" upper="2.9670" velocity="0.6283"/>
     <parent link="link3"/>
     <child link="link4"/>
     <origin xyz="0.267 0 -0.0745" rpy="0 0 1.5708"/>
@@ -187,7 +187,7 @@
 
   <joint name="joint5" type="revolute">
     <axis xyz="0 0 1"/>
-    <limit effort="1000.0" lower="-2.93" upper="2.9321" velocity="1.5"/>
+    <limit effort="50.0" lower="-2.93" upper="2.9321" velocity="0.6283"/>
     <parent link="link4"/>
     <child link="link5"/>
     <origin xyz="0 -0.095 0.002" rpy="1.5707 -1.5707 0"/>
@@ -217,7 +217,7 @@
 
   <joint name="joint6" type="revolute">
     <axis xyz="-1 0 0"/>
-    <limit effort="1000.0" lower="-3.03" upper="3.0368" velocity="1.5"/>
+    <limit effort="50.0" lower="-3.03" upper="3.0368" velocity="0.6283"/>
     <parent link="link5"/>
     <child link="link6"/>
     <origin xyz="-0.054 0 0" rpy="-1.5707 0 0"/>

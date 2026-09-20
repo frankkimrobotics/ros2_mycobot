@@ -428,7 +428,7 @@ robot_cfg:
       - 0.0
       - 0.0
       max_jerk: 2000.0
-      max_acceleration: 24.0
+      max_acceleration: 10.47
       default_joint_position:
       - 0.0
       - -0.349066

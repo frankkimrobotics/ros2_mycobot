@@ -174,4 +174,6 @@ robot_cfg:
       # joint3 -149.5..150 -> ~+-145 deg.
       position_limit_clip: [0.0, 1.919862, 0.087266, 0.0, 0.0, 0.0]
       max_jerk: 2000.0
-      max_acceleration: 24.0
+      # drive envelope 2026-09-20: 600 deg/s^2 design cap (was 24.0 rad/s^2 placeholder).
+      # velocity limit comes from the URDF <limit velocity> (0.6283 rad/s = 36 deg/s) x velocity_scale.
+      max_acceleration: 10.47
